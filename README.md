@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="./501stAudits.png" alt="Riiz0 Logo" width="200">
+  <img src="./501stAudits.png" alt="0xRiiz0 Logo" width="200">
 </p>
 
 # Smart Contract Security Audit Portfolio
 
-Welcome to the professional portfolio of **Riiz0**, specializing in comprehensive smart contract security audits. This repository serves as a testament to my expertise and experience in the field, providing detailed reports from various audit engagements.
+Welcome to the professional portfolio of **0xRiiz0**, specializing in comprehensive smart contract security audits. This repository serves as a testament to my expertise and experience in the field, providing detailed reports from various audit engagements.
 
 ## Table of Contents
 
@@ -98,8 +98,8 @@ The severity of identified issues in the reports is classified as follows:
 
 For professional inquiries, collaborations, or further information regarding these audit reports, please reach out through the following channels:
 
-- **GitHub**: [Riiz0](https://github.com/Riiz0)
-- **x.com**: [@o_oRizo](https://x.com/o_oRizo)
+- **GitHub**: [0xRiiz0](https://github.com/0xRiiz0)
+- **x.com**: [@0xRiiz0](https://x.com/0xRiiz0)
 
 ---
 
