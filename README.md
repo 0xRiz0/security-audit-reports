@@ -38,10 +38,11 @@ In the rapidly evolving blockchain landscape, ensuring the security and reliabil
 
 | Publish Date | Audit Start | Audit End  | Project Name     | Report Link                                                                 | C | H | M | L | I | G |
 |--------------|-------------|------------|------------------|-----------------------------------------------------------------------------|---|---|---|---|---|---|
-| 2024-05-10   | 2024-04-26  | 2024-05-02 | PasswordStore    | [View Report](./Audit%20Reports/2024-05-02-PasswordStore-Audit.pdf)         | 0 | 2 | 0 | 1 | 1 | 0 |
-| 2024-05-10   | 2024-05-03  | 2024-05-09 | Puppy Raffle     | [View Report](./Audit%20Reports/2024-05-09-Puppy-Raffle-Audit.pdf)          | 0 | 3 | 4 | 1 | 8 | 0 |
-| 2024-05-21   | 2024-05-10  | 2024-05-20 | TSwap            | [View Report](./Audit%20Reports/2024-05-20-TSwap-Audit.pdf)                 | 0 | 4 | 1 | 2 | 10| 1 |
-| 2024-06-06   | 2024-05-23  | 2024-06-06 | ThunderLoan      | [View Report](./Audit%20Reports/2024-06-06-ThunderLoan-Audit.pdf)           | 0 | 3 | 4 | 4 | 5 | 3 |
+| 2024-05-10   | 2024-04-26  | 2024-05-02 | PasswordStore    | [View Report](./Audit%20Reports/2024-05-02-passwordstore-audit.pdf)         | 0 | 2 | 0 | 1 | 1 | 0 |
+| 2024-05-10   | 2024-05-03  | 2024-05-09 | Puppy Raffle     | [View Report](./Audit%20Reports/2024-05-09-puppy-raffle-audit.pdf)          | 0 | 3 | 4 | 1 | 8 | 0 |
+| 2024-05-21   | 2024-05-10  | 2024-05-20 | TSwap            | [View Report](./Audit%20Reports/2024-05-20-tswap-audit.pdf)                 | 0 | 4 | 1 | 2 | 10| 1 |
+| 2024-06-06   | 2024-05-23  | 2024-06-06 | ThunderLoan      | [View Report](./Audit%20Reports/2024-06-06-thunderloan-audit.pdf)           | 0 | 3 | 4 | 4 | 5 | 3 |
+| 2025-06-30   | 2025-04-03  | 2025-04-08 | Eggstravaganza   | [View Report](./Audit%20Reports/2025-04-08-eggstravaganza-audit.pdf)                | 0 | 2 | 2 | 0 | 0 | 0 |
 
 ### Competitive Audits
 
