@@ -1,94 +1,68 @@
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-    .full-page {
-        width:  100%;
-        height:  100vh; /* This will make the div take up the full viewport height */
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .full-page img {
-        max-width:  200;
-        max-height:  200;
-        margin-bottom: 5rem;
-    }
-    .full-page div{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-</style>
-</head>
-<body>
-<div class="full-page">
-    <img src="./501stAudits.png" alt="Logo">
-    <div>
-    <h1> (`NAME`) Audit Report</h1>
-    <h3>Version 0.1</h2>
-    <h3>Riiz0</h3>
-    <h4>Date: (`Month Day, Year`)</h4>
-    </div>
-    
-</div>
+---
+title: Protocol Audit Report
+author: 0xRiz0
+date: July 8, 2025
+header-includes:
+  - \usepackage{titling}
+  - \usepackage{graphicx}
+---
 
-</body>
-</html>
+\begin{titlepage}
+    \centering
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=0.5\textwidth]{logo.pdf} 
+    \end{figure}
+    \vspace*{2cm}
+    {\Huge\bfseries Protocol Audit Report\par}
+    \vspace{1cm}
+    {\Large Version 1.0\par}
+    \vspace{2cm}
+    {\Large\itshape 0xRiz0\par}
+    \vfill
+    {\large \today\par}
+\end{titlepage}
 
-<!-- report starts here! -->
-# `<Name> Audit Report`
+\maketitle
 
-Prepared by:
-- Shawn Rizo
+<!-- Your report starts here! -->
 
+Prepared by: [0xRiz0](https://github.com/0xRiz0)
 Lead Auditor(s):
-- Shawn Rizo
+- 0xRiz0
 
 Assisting Auditors:
 - None
 
-<div style="page-break-after: always;"></div>
-
 # Table of Contents
-- [`<Name> Audit Report`](#name-audit-report)
 - [Table of Contents](#table-of-contents)
-- [About Shawn Rizo](#about-shawn-rizo)
+- [Protocol Summary](#protocol-summary)
 - [Disclaimer](#disclaimer)
 - [Risk Classification](#risk-classification)
 - [Audit Details](#audit-details)
   - [Scope](#scope)
-- [Protocol Summary](#protocol-summary)
   - [Roles](#roles)
 - [Executive Summary](#executive-summary)
   - [Issues found](#issues-found)
 - [Findings](#findings)
-  - [Critical](#critical)
-    - [\[C-1\] `<Title>&<What it does>`](#c-1-titlewhat-it-does)
-- [Findings](#findings-1)
   - [High](#high)
-    - [\[H-1\] `<Title>&<What it does>`](#h-1-titlewhat-it-does)
+    - [\[H-1\]](#h-1)
   - [Medium](#medium)
-    - [\[M-1\] `<Title>&<What it does>`](#m-1-titlewhat-it-does)
+    - [\[M-1\]](#m-1)
   - [Low](#low)
-    - [\[L-1\] `<Title>&<What it does>`](#l-1-titlewhat-it-does)
+    - [\[L-1\]](#l-1)
   - [Informational](#informational)
-    - [\[I-1\] `<Title>&<What it does>`](#i-1-titlewhat-it-does)
+    - [\[I-1\]](#i-1)
   - [Gas](#gas)
-    - [\[G-1\] `<Title>&<What it does>`](#g-1-titlewhat-it-does)
+    - [\[G-1\]](#g-1)
 
-<div style="page-break-after: always;"></div>
+# Protocol Summary
 
-
-# About Shawn Rizo
-
-I am a seasoned Smart Contract Engineer, adept at utilizing agile methodologies to deliver comprehensive insights and high-level overviews of blockchain projects. Specialized in developing and deploying decentralized applications (DApps) on Ethereum and EVM compatible chains. Expertise in Solidity, and security auditing, leading to a significant reduction in vulnerabilities through the strategic use of Foundry and Security Tools like Slither and Aderyn.
+Protocol does X, Y, Z
 
 # Disclaimer
 
-The Riiz0 team makes all effort to find as many vulnerabilities in the code in the given time period, but holds no responsibilities for the the findings provided in this document. A security audit by the team is not an endorsement of the underlying business or product. The audit was time-boxed and the review of the code was solely on the security aspects of the solidity implementation of the contracts.
+The YOUR_NAME_HERE team makes all effort to find as many vulnerabilities in the code in the given time period, but holds no responsibilities for the findings provided in this document. A security audit by the team is not an endorsement of the underlying business or product. The audit was time-boxed and the review of the code was solely on the security aspects of the Solidity implementation of the contracts.
 
 # Risk Classification
 
@@ -102,24 +76,14 @@ The Riiz0 team makes all effort to find as many vulnerabilities in the code in t
 We use the [CodeHawks](https://docs.codehawks.com/hawks-auditors/how-to-evaluate-a-finding-severity) severity matrix to determine severity. See the documentation for more details.
 
 # Audit Details 
-
-The findings described in this document correspond the following commit hash:
-```
-```
-
 ## Scope 
-
 ```
+src/
+#--
+#--
+#--
 ```
-
-# Protocol Summary 
-
-<`Short Summary`>
-
 ## Roles
-
-- <`Name of Role`>: <`Description`>
-
 # Executive Summary
 ## Issues found
 
@@ -134,60 +98,22 @@ The findings described in this document correspond the following commit hash:
 | Total    | 0                      |
 
 # Findings
-## Critical
-### [C-1] `<Title>&<What it does>`
-
-**Summary:**
-**Vulnerability Details:**
-**Impact:**
-**Proof of Concept:**
-**Recommended Mitigation:**
-
-
-# Findings
 ## High
-### [H-1] `<Title>&<What it does>`
-
-**Summary:**
+### [H-1]
+**Sumary:**
 **Vulnerability Details:**
 **Impact:**
 **Proof of Concept:**
 **Recommended Mitigation:**
-
 
 ## Medium
-### [M-1] `<Title>&<What it does>`
-
-**Summary:**
-**Vulnerability Details:**
-**Impact:**
-**Proof of Concept:**
-**Recommended Mitigation:**
-
+### [M-1]
 
 ## Low 
-### [L-1] `<Title>&<What it does>`
-
-**Summary:**
-**Vulnerability Details:**
-**Impact:**
-**Proof of Concept:**
-**Recommended Mitigation:**
-
+### [L-1]
 
 ## Informational
-### [I-1] `<Title>&<What it does>`
-
-**Summary:**
-**Vulnerability Details:**
-**Impact:**
-**Recommended Mitigation:**
-
+### [I-1]
 
 ## Gas 
-### [G-1] `<Title>&<What it does>`
-
-**Summary:**
-**Vulnerability Details:**
-**Impact:**
-**Recommended Mitigation:**
+### [G-1]
